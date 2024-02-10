@@ -123,6 +123,7 @@
 .text-center {
   /* Take your financial */
   position: absolute;
+  position: relative;
   width: 447px;
   height: 84px;
   left: 0%;
@@ -141,13 +142,14 @@
 .img {
   /* Group 37 */
   position: absolute;
-  width: 1371px;
-  height: 1037.99px;
+  margin-top: 265px;
+  width: 800px;
+  height: 837.99px;
   left: 640px;
   right: -571px;
   top: -180px;
   bottom: 1404.01px;
-  background: url("../img/telefon.png");
+  background: url("../img/telefon.png ");
 }
 
 .main-container {
