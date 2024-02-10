@@ -1,99 +1,168 @@
- header {
-  padding: 18px 0;
+.dars {
+  /* P2357 - Desktop */
+  position: relative;
+  width: 1440px;
+  height: 2262px;
+  background: rgb(250, 250, 250);
 }
 .header-container {
-  padding: 15px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* Rectangle */
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  /* margin-top: 100px;
+  margin-left: 1000px; */
 }
-.nav-list {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-.nav-link {
-  color: rgb(149, 151, 165);
-  font-family: "PublicSans";
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: -0.11px;
-}
-.header-btn {
+.header-link {
+  /* Rectangle */
+  position: absolute;
+  width: 163px;
+  height: 44px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
   border-radius: 22px;
+
   background: linear-gradient(
     134.71deg,
     rgb(51, 211, 94) -43.027%,
     rgb(42, 182, 217) 56.553%
   );
-  padding: 8px 36px 8px 33px;
+  margin-top: 18px;
+  margin-left: 1145px;
+}
+.link {
+  /* Request Invite */
+  position: absolute;
+  width: 94px;
+  height: 28px;
+  left: 20.25%;
+  right: 22.09%;
+  top: 8px;
+  bottom: 8px;
   color: rgb(255, 255, 255);
+  font-family: Public Sans;
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0;
   letter-spacing: 0px;
+  text-align: left;
 }
-.header-btn:hover {
-  background: linear-gradient(
-    134.71deg,
-    rgb(51, 211, 94) 56.553% rgb(42, 182, 217) 43.027%
-  );
-}
-.main-container {
+.header-text {
+  /* Group 2 */
   position: relative;
+  width: 331px;
+  height: 17px;
+  margin-left: 635px;
+  margin-top: 30px;
+  display: flex;
 }
-.img {
-  background: url(..//img/ism.jpeg);
-  width: 800px;
-  height: 775px;
-  background-position: top;
-  background-position: right;
+.text {
+  /* Careers */
+  /* position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 84.59%; */
+  right: 0%;
+  top: 1px;
+  bottom: 0;
+  color: rgb(149, 151, 165);
+  font-family: PublicSans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: -1px;
+  letter-spacing: -0.11px;
+  text-align: left;
+  display: flex;
+  margin-left: 30px;
 }
 
-.main {
-  background: rgb(250, 250, 250);
-  background-size: 120vh;
+.logo {
+  /* logo */
+  position: absolute;
+  width: 138.76px;
+  height: 20px;
+  left: 165px;
+  right: 1136.24px;
+  top: 33px;
+  bottom: 27px;
 }
-.main-h1 {
-  margin-top: 50px;
+.desc {
+  /* Group 5 */
+  position: absolute;
+  width: 447px;
+  height: 316px;
+  left: 165px;
+  right: 828px;
+  top: 250px;
+  bottom: 1696px;
+}
+.desc-text {
+  /* Next generation digi */
+  position: absolute;
+  width: 394px;
+  height: 128px;
+  left: 0%;
+  right: 11.86%;
+  top: 0;
+  bottom: 188px;
   color: rgb(45, 49, 77);
-  font-family: "Public Sans";
+  font-family: Public Sans;
   font-size: 56px;
   font-weight: 100;
   line-height: 64px;
   letter-spacing: -1px;
+  text-align: left;
 }
-.main-p {
+.text-center {
+  /* Take your financial */
+  position: absolute;
+  width: 447px;
+  height: 84px;
+  left: 0%;
+  right: 0%;
+  top: 152px;
+  bottom: 80px;
   color: rgb(149, 151, 165);
-  font-family: "PublicSans";
+  font-family: PublicSans;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: -0.28px;
-  margin-bottom: 38px;
+  text-align: left;
 }
-.main-btn {
-  border-radius: 22px;
-  background: linear-gradient(
-    134.71deg,
-    rgb(51, 211, 94) -43.027%,
-    rgb(42, 182, 217) 56.553%
-  );
-  padding: 8px 36px 8px 33px;
-  color: rgb(255, 255, 255);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0;
-  letter-spacing: 0px;
+
+.img {
+  /* Group 37 */
+  position: absolute;
+  width: 1371px;
+  height: 1037.99px;
+  left: 640px;
+  right: -571px;
+  top: -180px;
+  bottom: 1404.01px;
+  /* background: url("../img/Group(1).png"); */
 }
-.main-section2 {
+
+.main-container {
+  /* Rectangle */
+  position: absolute;
+  width: 1440px;
+  height: 676px;
+  left: 0;
+  right: 0;
+  top: 736px;
+  bottom: 850px;
   background: rgb(244, 245, 247);
   display: flex;
-  flex-direction: column;
 }
-.section-2h2 {
+.text-shrif {
   /* Why choose Easybank? */
   position: absolute;
   width: 411px;
@@ -102,22 +171,62 @@
   right: 35.28%;
   top: 0;
   bottom: 72px;
+  color: rgb(45, 49, 77);
+  font-family: Public Sans;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  text-align: left;
+  margin-top: 96px;
+  margin-left: 165px;
 }
-.section2p {
+.text-p {
+  /* We leverage Open Ban */
+  position: absolute;
+  width: 635px;
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: 80px;
+  bottom: 0;
   color: rgb(149, 151, 165);
   font-family: PublicSans;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: -0.28px;
-  margin-bottom: 72px;
+  text-align: left;
+  margin-top: 160px;
+  margin-left: 165px;
 }
-.koli {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+.main-logo-text {
+  /* Group 24 */
+
+  left: 165px;
+  right: 1020px;
+  top: 1040px;
+  bottom: 944px;
+  margin-top: 360px;
+  margin-left: 75px;
 }
-.section-2h3 {
+.img-main {
+}
+.qism {
+  /* Group 19 */
+  position: relative;
+  width: 255px;
+  height: 166px;
+}
+.h6 {
+  /* Online Banking */
+  position: absolute;
+  width: 160px;
+  height: 28px;
+  left: 0%;
+  right: 37.25%;
+  top: 0;
+  bottom: 138px;
   color: rgb(45, 49, 77);
   font-family: Public Sans;
   font-size: 24px;
@@ -125,8 +234,18 @@
   line-height: 28px;
   letter-spacing: -0.43px;
   text-align: left;
+  margin-top: 30px;
 }
-.par {
+
+.p-teg {
+  /* Our modern web and m */
+  position: absolute;
+  width: 255px;
+  height: 112px;
+  left: 0%;
+  right: 0%;
+  top: 54px;
+  bottom: 0;
   color: rgb(149, 151, 165);
   font-family: PublicSans;
   font-size: 16px;
@@ -134,8 +253,5 @@
   line-height: 26px;
   letter-spacing: -0.25px;
   text-align: left;
-}
-.boxes {
-  display: flex;
-  gap: 30px;
+  margin-top: 30px;
 }
