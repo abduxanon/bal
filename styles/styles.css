@@ -257,3 +257,63 @@
   text-align: left;
   margin-top: 30px;
 }
+
+.rasim {
+  /* Rectangle */
+  position: absolute;
+  width: 1440px;
+  height: 676px;
+  left: 0;
+  right: 0;
+  top: 736px;
+  bottom: 850px;
+}
+.asl {
+  color: rgb(45, 49, 77);
+  font-family: Public Sans;
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  text-align: left;
+  margin-top: 792px;
+  margin-left: 160px;
+}
+.qism2 {
+  /* Group 30 */
+  position: absolute;
+  width: 1110px;
+  height: 395px;
+  left: 165px;
+  right: -165px;
+
+  margin-top: 92px;
+  margin-left: 60px;
+}
+.qism3 {
+  /* Group 29 Copy 2 */
+  position: relative;
+  width: 255px;
+  height: 395px;
+}
+.qism4 {
+  /* Rectangle Copy 4 */
+  position: absolute;
+  width: 255px;
+  height: 200px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 40.37%;
+}
+.qism5 {
+  color: rgb(149, 151, 165);
+  font-family: PublicSans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.16px;
+  text-align: left;
+  
+  margin-left: 60px;
+}
